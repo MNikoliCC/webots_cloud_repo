@@ -1,0 +1,28 @@
+#VRML_SIM R2024a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/c97275d1a473dcd3829b66630585091a9914d33d/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/c97275d1a473dcd3829b66630585091a9914d33d/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/c97275d1a473dcd3829b66630585091a9914d33d/projects/objects/floors/protos/RectangleArena.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.18431728199601868 0.3142963196126561 0.9312598794297644 1.1240052963976717
+  position -0.34253814456366827 -0.6668500641022742 0.36633568467579003
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+}
+Solid {
+  translation 0 0 0.07
+  children [
+    Shape {
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+}
